@@ -1,0 +1,126 @@
+body {
+    background-image: url(../images/bcg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 0;
+    min-height:100vh;
+}
+
+h1{
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: white;
+}
+
+.tittle{
+    margin-left: 20%;
+    margin-top: 4%;
+    position: relative;
+    padding: 4%;
+}
+
+.info{
+    max-width: 560px;
+    margin-left: 20%;
+    position: relative;
+    padding: 2%;
+}
+
+.btn{
+    height: 63px;
+    width: 228px;
+    left: 328px;
+    top: 491px;
+    border-radius: 0px;
+    width: 228px;
+    background: #5474FD;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    align-items: center;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 22%;
+    margin-top: 1%;
+}
+.btnm{
+    padding: 5%;
+}
+
+.btn:hover {
+    background: green;
+    transition: 0.5s;
+}
+
+footer{
+    max-width: 100%;
+    height: 337px;
+    left: 3px;
+    top: -5px;
+    background: #333333;
+}
+.footerinf{
+    display: flex;
+    
+}
+.shapeimg{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.searchimg{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 6%;
+}
+
+.selectimg{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+
+.enjoyimg{
+  position: absolute;
+   margin-left: 64%;
+  margin-top: 5.5%;
+}
+
+@media screen and (max-width: 1340px) {
+    .shapeimg{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 970px) {
+    .footerinf{
+        display: none;
+    }
+}
+
+a{
+    text-decoration: none;
+}

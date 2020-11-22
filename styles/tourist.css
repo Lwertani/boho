@@ -1,0 +1,130 @@
+body {
+    background-image: url(../images/bcg5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 0;
+    min-height:100vh;
+}
+
+h1{
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 72% */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 35%;
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    align-items: center;
+    color: #E8E8E8;
+}
+
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FEFEFE;
+}
+
+.main{
+    position: relative;
+    Width: 668px;
+    Height: 249px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9; 
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 0;
+}
+
+.main1{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+img {
+    Height: 287px !important;
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa {
+    width: 80px;
+}
+
+footer{
+    margin-top: 20%;
+    background-color: #232323;
+    text-align: center;
+    position: relative;
+     bottom: 0;
+    min-width: 100%;
+    padding: 50px;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.inf {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1115px) {
+    p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+    .minfo {
+        display: none;
+    }
+
+
+}

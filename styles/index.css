@@ -1,0 +1,157 @@
+body {
+    background-image: url(../images/bcg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.tittle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 10px;
+        text-align: center;
+
+}
+
+
+.tittle__info {
+    letter-spacing: 9px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.btn1 {
+    width: 153px;
+    height: 61px;
+    left: 500px;
+    top: 0px;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: -10px
+}
+
+.btns1 {
+    position: absolute;
+    margin-left: 10px
+}
+
+.scrld {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 8%;
+}
+
+.bibi-chevron-compact-down{
+    position: relative;
+    color: white;
+    margin-left: 49%;
+    margin-top: -3%;
+}  
+
+
+.logo {
+    width: 186px;
+    height: 26px;
+    left: 13px;
+    top: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 15%
+}
+
+.navbar{
+    margin-top: 6%;
+    height: 100%;
+}
+.form-inline{
+    position: relative;
+    margin-left: 40%;
+}
+
+header{
+    position: relative;
+    margin-top: 18%;
+}
+
+.nav-link{
+    width: 126px;
+    height: 26px;
+    left: 0px;
+    top: -6px;
+    font-family: "Aleo", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+}
+.navbar-collapse{
+    height: 70px;
+}
+.nav-item :hover{
+    color: rgb(2, 58, 2) !important;
+    transition-delay: 0.2s;
+}
+
+.btn-outline-success{
+    background-color: #5474FD !important;
+    color: white !important;
+    border: white !important;
+}
+.btn-outline-success:hover {
+    background-color :green !important;
+}
+
+.form-inline{
+    background-color: white;
+    max-width: 650px;
+    position: relative;
+    margin-left: 28%;
+}
+
+.form-inline .form-control{
+    width: 500px !important;
+    border: none !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    padding: 25%;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: left;
+}
